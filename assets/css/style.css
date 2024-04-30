@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  /* outline: 1px solid orange; */
+}
+body{
+  position: relative;
+  background-color: #C4D0BD;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-brand__logo{
+  width: 100%;
+  max-width: 150px;
+}
+.navbar-collapse{
+  justify-content: end;
+}
+.bg-transparent{
+  background-color: #137063 !important;
+  
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: whitesmoke;
+}
+.jumbotron{
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.jumbotron__img{
+  padding: 2rem;
+  width: 100%;
+  max-width: 300px;
+  height: 348px;
+}
+.navbar-expand-sm .navbar-nav {
+  gap: 0.5rem
+}
+.nav-item:hover,
+.nav-item.active {
+  background-color: #FBEFE3;
+  border-radius: .25rem;
+  color: #137063;
+}
+
+.nav-item:hover .nav-link {
+  color: #137063 !important;
+}
+.nav-item.active .nav-link {
+  color: #137063;
+}
+@media (max-width:768px){
+  .jumbotron__img{
+    display: none;
+  }
+}
+.bg-green{
+  background-color: #137063;
+}
+.fw-bold{
+  color: #FBEFE3;
+  display: flex;
+}
+.fs-4{
+  color: #FBEFE3;
+}
