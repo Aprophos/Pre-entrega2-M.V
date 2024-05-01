@@ -68,3 +68,87 @@ body{
 .fs-4{
   color: #FBEFE3;
 }
+.textobanner{
+  color: #FBEFE3;
+  text-align: left;
+}
+@media (max-width:400px){
+.textobanner{
+  color: #FBEFE3;
+  text-align: center;
+  
+}
+}
+.titulodestacados{
+  color: #FBEFE3;
+  background-color: #137063;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: auto;
+}
+.productos {
+  width: 280px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+.productos-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.form-container {
+  width: 100%;
+  max-width: 575px;
+  margin: 2rem auto;
+}
+.form-body {
+  width: 100%;
+  max-width: 100%;
+}
+.form-body__title {
+  font: normal 700 3rem/1.2 var(--font-primary);
+  text-align: center;
+  color: var(--color-black-light);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.form-body__input,
+.form-body__textarea,
+.form-body__submit {
+  width: 100%;
+  font: normal 400 1rem/1.2 var(--font-primary);
+  padding: 0.8rem 1rem;
+  border: 1px solid ;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.form-body__input:focus,
+.form-body__textarea:focus {
+  border: 1px solid var(--color-red-light)
+}
+.form-body__submit {
+  width: 100%;
+  font: normal 400 1.5rem/1.2 var(--font-primary);
+  text-align: center;
+  background-color: var(--color-red-light);
+  color: var(--color-white);
+  border: none;
+  outline: 0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  padding: 1rem 0;
+}
+.form-body__submit:hover {
+  transition: all 0.3s ease;
+  background-color: green;
+  cursor: pointer;
+}
